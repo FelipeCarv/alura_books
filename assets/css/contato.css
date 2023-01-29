@@ -1,0 +1,41 @@
+.contato{
+    padding: 1em;
+    color: var(--azul-degrade);
+
+}
+.contato__titulo{
+    color: var(--azul-degrade);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: .5rem;
+}
+
+.contato__descricao{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--azul-degrade);
+    margin-bottom: 1.5rem;
+}
+
+.contato__pesquisa{
+    border: 1px solid linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    color: var(--preto);
+    border-radius: 24px;
+    background-color: transparent;
+    padding: 1em;
+    width: 100%;
+    margin-bottom: 1.875rem;
+}
+
+.contato__pesquisa::placeholder{
+    font-family: 'Poppins', sans-serif;
+    color: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    background: url(/assets/img/Email.svg);
+    background-repeat: no-repeat;
+    background-position: 1em;
+}
