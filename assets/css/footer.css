@@ -10,8 +10,14 @@
     padding: 1em;
 }
 
-@media  (min-width: 1024px){
+.lista-rodape{
+    display: none;
+}
 
+@media  (min-width: 1024px){
+    .lista-rodape{
+        display: block;
+    }
     .footer{
         display: flex;
         justify-content: space-around;
@@ -40,5 +46,16 @@
 
     .footer h2{
         font-size: 24px;
+    }
+}
+
+@media  (min-width: 1024px){
+    .lista-rodape{
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
+
+    .footer{
+        padding: 3em 0;
     }
 }
