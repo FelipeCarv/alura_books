@@ -9,3 +9,36 @@
     color: var(--preto);
     padding: 1em;
 }
+
+@media  (min-width: 1024px){
+
+    .footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .lista-rodape__titulo{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: var(--cinza-claro);
+        text-transform: uppercase;
+        padding: 2em 0 ;
+    }
+
+    .lista-rodape__item{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+
+    .lista-rodape__link{
+        text-decoration: none;
+        color: var(--cinza);
+    }
+
+    .footer h2{
+        font-size: 24px;
+    }
+}
